@@ -16,15 +16,6 @@ public class LoanController {
     @Autowired
     private LoanService loanService;
 
-    public ResponseEntity<Loan> getLoan(@PathVariable("id") long id) {
-        Loan loan = loanService.getLoan(id);
-        if (loan != null) {
-            return new ResponseEntity<>(loan, HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
-        }
-    }
-
     @PostMapping(consumes = {MediaType.APPLICATION_JSON_VALUE})
     public ResponseEntity<Loan> createLoan(@RequestBody CreateLoanModel loanModel) {
         return new ResponseEntity<>(loanService.createLoan(loanModel), HttpStatus.OK);

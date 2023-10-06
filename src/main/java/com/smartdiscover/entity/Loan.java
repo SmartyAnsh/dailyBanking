@@ -3,9 +3,7 @@ package com.smartdiscover.entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.smartdiscover.model.CreateLoanModel;
 import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.math.BigDecimal;
