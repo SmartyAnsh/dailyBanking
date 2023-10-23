@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.HashSet;
-import java.util.Optional;
 
 @Service
 public class LoanService {
@@ -23,11 +22,6 @@ public class LoanService {
 
     @Autowired
     private TransactionRepository transactionRepository;
-
-    public Loan getLoan(Long id) {
-        Optional<Loan> loanVal = loanRepository.findById(id);
-        return loanVal.isPresent() ? loanVal.get() : null;
-    }
 
     public Loan createLoan(CreateLoanModel loanModel) {
         Loan loan = new Loan(loanModel);
