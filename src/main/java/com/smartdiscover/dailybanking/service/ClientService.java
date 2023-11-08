@@ -1,8 +1,8 @@
-package com.smartdiscover.service;
+package com.smartdiscover.dailybanking.service;
 
-import com.smartdiscover.entity.Client;
-import com.smartdiscover.model.CreateClientModel;
-import com.smartdiscover.repository.ClientRepository;
+import com.smartdiscover.dailybanking.entity.Client;
+import com.smartdiscover.dailybanking.model.CreateClientModel;
+import com.smartdiscover.dailybanking.repository.ClientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

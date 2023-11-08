@@ -1,8 +1,8 @@
-package com.smartdiscover.controller;
+package com.smartdiscover.dailybanking.controller;
 
-import com.smartdiscover.entity.Client;
-import com.smartdiscover.model.CreateClientModel;
-import com.smartdiscover.service.ClientService;
+import com.smartdiscover.dailybanking.entity.Client;
+import com.smartdiscover.dailybanking.model.CreateClientModel;
+import com.smartdiscover.dailybanking.service.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

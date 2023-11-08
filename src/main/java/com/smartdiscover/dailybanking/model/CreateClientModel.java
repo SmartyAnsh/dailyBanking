@@ -1,4 +1,4 @@
-package com.smartdiscover.model;
+package com.smartdiscover.dailybanking.model;
 
 import lombok.Data;
 

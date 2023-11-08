@@ -1,7 +1,7 @@
-package com.smartdiscover.entity;
+package com.smartdiscover.dailybanking.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.smartdiscover.model.CreateLoanModel;
+import com.smartdiscover.dailybanking.model.CreateLoanModel;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

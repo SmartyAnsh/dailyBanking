@@ -1,8 +1,8 @@
-package com.smartdiscover.service;
+package com.smartdiscover.dailybanking.service;
 
-import com.smartdiscover.entity.Loan;
-import com.smartdiscover.model.CreateLoanModel;
-import com.smartdiscover.repository.LoanRepository;
+import com.smartdiscover.dailybanking.entity.Loan;
+import com.smartdiscover.dailybanking.model.CreateLoanModel;
+import com.smartdiscover.dailybanking.repository.LoanRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

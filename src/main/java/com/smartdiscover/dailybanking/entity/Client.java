@@ -1,6 +1,6 @@
-package com.smartdiscover.entity;
+package com.smartdiscover.dailybanking.entity;
 
-import com.smartdiscover.model.CreateClientModel;
+import com.smartdiscover.dailybanking.model.CreateClientModel;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
