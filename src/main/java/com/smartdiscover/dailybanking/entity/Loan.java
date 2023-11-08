@@ -7,9 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
-import java.util.Set;
-
-import static jakarta.persistence.CascadeType.ALL;
+import java.util.Date;
 
 @Getter
 @Setter
@@ -35,8 +33,8 @@ public class Loan {
     private Boolean disbursed;
     private Boolean repaid;
 
-    @OneToMany(cascade = ALL, mappedBy = "loan")
-    private Set<Transaction> transactions;
+    private Date disbursedDate;
+    private Date repaidDate;
 
     public Loan() {
 
